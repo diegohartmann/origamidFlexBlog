@@ -1,2 +1,2 @@
 # origamidFlexBlog
-project created with flexbox
+Created using Flexbox

@@ -1,0 +1,27 @@
+:root{
+    --fontFamily: "Nunito", Helvetica, Arial, sans-serif;
+    --defaultBlue: #2c70ff;
+}
+body, h1, h2, p,ul,li,a{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: var(--fontFamily);
+    color: #222222;
+}
+ul{
+    list-style:none
+}
+a{
+    text-decoration: none;
+}
+img{
+    display: block;
+    /*assim elas diminuem conforme o encolhimento da largura*/
+    max-width: 100%;
+}
+*{
+    /*isso faz com que o padding faça o container manter o mesmo tamanho*/
+    box-sizing: border-box;
+}
