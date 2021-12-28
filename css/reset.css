@@ -9,6 +9,7 @@ body, h1, h2, p,ul,li,a{
 body{
     font-family: var(--fontFamily);
     color: #222222;
+    background-color: #fff;
 }
 ul{
     list-style:none
